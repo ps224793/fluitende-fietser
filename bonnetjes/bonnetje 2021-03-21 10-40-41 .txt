@@ -1,0 +1,12 @@
+naam: Erik
+e-mail: Erik@fluitendefietser.nl
+adres: barbequestraat 14
+stad: Eindhoven
+postcode: 5667QE
+
+fiets: Driewielfiets
+prijs: €30.00 / dag
+
+fiets: Elektrische fiets
+prijs: €30.00 / dag
+

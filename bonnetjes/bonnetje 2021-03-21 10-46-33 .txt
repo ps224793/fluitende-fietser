@@ -1,0 +1,15 @@
+naam: Luuk
+e-mail: LuukPaans@gmail.com
+adres: Sterrelaan 10
+stad: Eindhoven
+postcode: 5668TR
+
+fiets: Driewielfiets
+prijs: €30.00 / dag
+
+fiets: Elektrische fiets
+prijs: €30.00 / dag
+
+fiets: Kinderfiets
+prijs: €15.00 / dag
+

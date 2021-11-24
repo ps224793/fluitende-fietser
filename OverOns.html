@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Fluitende fietser</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="stylesheets/mediaButtons.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-2 col-lg-1">
+          <img src="images/logo.png" class="logo">
+        </div>
+        <!--searchbar-->
+        <div class="col-2 align-self-center">
+          <div class="input-groep">
+            <div class="form outline">
+              <input type="search" id="searchbar" class="form-control">
+            </div>
+          </div>
+        </div>
+        <div class="col-1 align-self-center">
+          <a id="search-button" type="button"> <img src="images/zoek.png" width="50%" style="min-width: 40px;"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Fluitende Fietser</a>
+    <div class="navbar-nav">
+      <!--Nav Items-->
+      <a class="nav-item nav-link" href="index.html">Home</a>
+      <a class="nav-item nav-link" href="contact.php">contact</a>
+      <a class="nav-item nav-link" href="openingsTijden.html">Openingstijden</a>
+      <a class="nav-item nav-link" href="fietsen.php"> Fietsverkoop </a>
+      <a class="nav-item nav-link" href="verhuur.php">Fietsverhuur</a>
+      <a class="nav-item nav-link active" href="overOns.html">Over ons</a>
+    </div>
+  </nav>
+
+
+    <!-- <div class="container justify-content-center">
+        <div class="row">
+            <div class="col-12">
+                <h2>Over ons</h2>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-12 col-md-6">
+                <h3>De Fluitende Fietser</h3>
+                <p>De Fluitende Fietser is sinds 1960 gevestigd in Nuenen en kent een lange historie met ooit drie
+                    vestigingen In de Nuenen, Geldrop en Mierlo. Inmiddels worden alle activiteiten van de De Fluitende
+                    Fietser voortgezet in de vestiging in Nuenen. De kracht van de De Fluitende Fietser? Volop aandacht
+                    voor elke klant. Een hoog niveau van service en garantie en natuurlijk het bekende, brede
+                    assortiment van de meest uiteenlopende fietsproducten en -accessoires.</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="images/historie.jpg" style="width: 100%; margin: 10px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h3>Ons assortiment</h3>
+                <p>
+                    Bij ons bent u aan het juiste adres voor snelle, efficiënte en directe service, uitstekende
+                    reparaties en een grote collectie fietsen, regenkleding, accessoires en onderdelen. Het brede
+                    assortiment biedt uitsluitend topmerken met een hoge kwaliteit. Ook op het gebied van
+                    bedrijfsfietsplannen heeft de De Fluitende Fietser de juiste oplossing, o.a. in de vorm van kant en
+                    klare lease pakketten. Wij vertegenwoordigen bekende en hoogwaardige merken zoals: Gazelle, Cortina,
+                    Pegasus, Sensa Sensa, Popal (kinderfietsen), Dahon (vouwfietsen), Pointer, en Flyke (kinderfietsen).
+                    Ook op het gebied van elektrische fietsen hebben we uitsluitend topmerken zoals: Flyer, Gazelle,
+                    Pegasus en Cortina. Door de grote vraag naar 2e hands fietsen zijn wij in staat ongekend hoge
+                    inruilprijzen voor uw inruilfiets te bieden. Maar ook door inruilacties het gehele jaar door hebben
+                    wij altijd een grote collectie 2e hands fietsen in alle prijscategorieën.
+                </p>
+                <ul class="footer">
+                    <li><b>Onze voordelen:</b></li>
+                    <li>Professionele service</li>
+                    <li>Korte lijnen</li>
+                    <li>Volop aandacht</li>
+                    <li>Scherpe prijzen</li>
+                    <li>Snelle levering</li>
+                    <li>Alleen topkwaliteit</li>
+                    <li><i>tekst afkomstig van https://www.rijwielcentrale.nl/klantenservice/over-ons. </i></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="images/verhuur2.jpg" style="width: 100%; margin: 10px;"> 
+            </div>
+        </div>
+    </div> -->
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <ul class="footer">
+                        <li><a href="overOns.html" class="footer">Over ons</a></li>
+                        <li><a href="contact.html" class="footer">Contact</a></li>
+                        <li><a href="/download files/algemene voorwaarden.pdf" download class="footer">Alemene
+                                voorwaarden</a></li>
+                        <li><a href="https://www.facebook.com/fietsmagazine" class="fa fa-facebook"></a></li>
+                        <li>KVK: 88599665</li>
+                        <li>BTW: NL999888492Z09</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
